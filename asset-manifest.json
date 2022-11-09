@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/gfms-site/static/css/main.e827aa1b.css",
+    "main.js": "/gfms-site/static/js/main.83d834e4.js",
+    "static/media/pouring-syrup.jpg": "/gfms-site/static/media/pouring-syrup.802485087235ecf8e088.jpg",
+    "static/media/muted-leaf.jpg": "/gfms-site/static/media/muted-leaf.fedc3fc48b0614ac7873.jpg",
+    "static/media/grandma-label.png": "/gfms-site/static/media/grandma-label.4d6d445035cd368132da.png",
+    "static/media/large-bottle.png": "/gfms-site/static/media/large-bottle.0f4f79745e45778456ea.png",
+    "static/media/small-bottle.png": "/gfms-site/static/media/small-bottle.da8e9641a35747d368dc.png",
+    "static/media/med-bottle.png": "/gfms-site/static/media/med-bottle.bcb1e6ac47db5708fdf5.png",
+    "index.html": "/gfms-site/index.html",
+    "main.e827aa1b.css.map": "/gfms-site/static/css/main.e827aa1b.css.map",
+    "main.83d834e4.js.map": "/gfms-site/static/js/main.83d834e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e827aa1b.css",
+    "static/js/main.83d834e4.js"
+  ]
+}
