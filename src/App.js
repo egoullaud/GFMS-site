@@ -1,5 +1,6 @@
 import React from "react";
 import Analytics from "./components/Analytics";
+import BlogHero from "./components/BlogHero";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -13,6 +14,7 @@ function App() {
     <Hero/>
     <Analytics/>
     <Newsletter/>
+    <BlogHero/>
     <Cards/>
     <Footer/>
     </div>
