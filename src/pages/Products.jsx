@@ -33,7 +33,7 @@ function Products() {
                     <p className='py-2 border-b mx-8 '>In Stock</p>
                 
                     <p className=' text-left mx-6 md:mx-[4rem] pt-4'> 
-                    <span className='font-bold pb-5'>Description: </span> <br />
+                    <span className='font-bold pb-5'>Description: </span> <br/>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quos debitis provident molestiae 
                     facilis id numquam temporibus placeat porro harum? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                      Molestias, tenetur? Vel non asperiores assumenda molestiae.</p>
@@ -63,7 +63,7 @@ function Products() {
               <div className='md:w-[30%] flex'>  
                 <img className='w-[30%] md:w-[40%] mx-auto bg-white' src={lrgBtl} alt="sml.png" /></div>
               
-                <div className='text-center font-medium w-[50%] my-auto'>
+                <div className='text-center font-medium md:w-[50%] my-auto'>
                     <h1 className='text-center font-bold text-xl'>Large Bottle</h1>
                     <p className='py-2 border-b mx-8 mt-8'>$12.99 + tax</p>
                     <p className='py-2 border-b mx-8 '>750ml</p>
