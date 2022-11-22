@@ -1,5 +1,6 @@
 import React from 'react'
 import mutedLeaf from '../assets/muted-leaf.jpg'
+import {Link} from 'react-router-dom'
 
 
 function Analytics() {
@@ -13,7 +14,7 @@ function Analytics() {
                 <p>Produced in our backyard, this hobby turned into a passionate business providing maple syrup to our community. 
                   We pride ourselves on its organic, 100% pure quality, and extraordinary clarity and taste. 
                 </p>
-                     <button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#d4674c]'>Meet the Team</button>
+                     <button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#d4674c]'><Link to='/about'>Meet the Team</Link></button>
             </div>
         </div>
       

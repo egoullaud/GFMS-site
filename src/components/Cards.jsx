@@ -2,6 +2,7 @@ import React from 'react'
 import smlBtl from '../assets/small-bottle.png'
 import mdBtl from '../assets/med-bottle.png'
 import lrgBtl from '../assets/large-bottle.png'
+import {Link} from 'react-router-dom'
 
 function Cards() {
   return (
@@ -16,7 +17,7 @@ function Cards() {
                     <p className='py-2 border-b mx-8 '>200ml</p>
                     <p className='py-2 border-b mx-8 '>In Stock</p>
                 </div>
-                <button className='bg-[#d4674c] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Order Now</button>
+                <button className='bg-[#d4674c] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><Link to='/products'>See Product</Link></button>
             </div>
             <div className='w-full bg-white shadow-xl flex flex-col p-4 my-8 md:m-0 rounded-lg hover:scale-105 duration-300'>
             <img className='w-40 mx-auto my-2 bg-white' src={lrgBtl} alt="lrg.png" />
@@ -25,7 +26,7 @@ function Cards() {
                     <p className='py-2 border-b mx-8 '>750ml</p>
                     <p className='py-2 border-b mx-8 '>In Stock</p>
                 </div>
-                <button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#d4674c]'>Order Now</button>
+                <button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#d4674c]'><Link to='/products'>See Product</Link></button>
             </div>
             <div className=' bg-white w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-40 mx-auto my-2 bg-transparent' src={mdBtl} alt="med.png" />
@@ -36,7 +37,7 @@ function Cards() {
                 </div>
                 
                 
-                <button className='bg-[#d4674c] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Order Now</button>
+                <button className='bg-[#d4674c] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><Link to='/products'>See Product</Link></button>
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed'
 import label from '../assets/grandma-label.png'
+import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
             strings={['waffles', 'pancakes', 'french toast']} typeSpeed={120} backSpeed={140} loop/>
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500 '>100% Pure Maple Syrup made in Plymouth, Minnesota.</p>
-      <button className='bg-[#d4674c] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>See Products</button>
+      <button className='bg-[#d4674c] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><Link to='/products'>See Products</Link></button>
      
       </div>
 

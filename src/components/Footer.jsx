@@ -3,7 +3,9 @@ import {FaDribbbleSquare, FaFacebookSquare, FaGithubSquare, FaInstagram, FaTwitt
 
 function Footer() {
   return (
-    <div className='max-w-[1240px] mx-auto py-10 px-4  text-gray-300'>
+    <div className=' 
+   
+     mx-auto py-10 px-4  text-gray-300'>
       <div>
         <h1 className='w-full text-3xl font-bold text-[#d4674c]'>GFMS.</h1>
             <p className='py-4'>100% Pure Maple Syrup made by real people.</p>
