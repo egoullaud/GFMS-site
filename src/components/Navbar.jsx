@@ -14,7 +14,7 @@ function Navbar() {
       <ul className='hidden md:flex'>
         <li className='p-4'><Link to="/">Home</Link></li>
         <li className='p-4'><Link to='/products'>Products</Link></li>
-        <li className='p-4'>Blog</li>
+        {/* <li className='p-4'>Blog</li> */}
        <li className='p-4'> <Link to="/about">About</Link></li>
         
         <li className='p-4'><Link to='/contact'>Contact</Link></li>
@@ -28,7 +28,7 @@ function Navbar() {
         <ul className=' p-4 uppercase '>
         <li className='p-4 border-b border-gray-600'><Link to="/">Home</Link></li>
         <li className='p-4 border-b border-gray-600'><Link to='/products'>Products</Link></li>
-        <li className='p-4 border-b border-gray-600'>Blog</li>
+        {/* <li className='p-4 border-b border-gray-600'>Blog</li> */}
         <li className='p-4 border-b border-gray-600'><Link to="/about">About</Link></li>
         <li className='p-4'><Link to='/contact'>Contact</Link></li>
         </ul>
